@@ -1,0 +1,64 @@
+.animated {
+    -webkit-animation-duration: 2s;
+    animation-duration: 2s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+  }
+  
+  
+  @keyframes flash {
+    0%, 50%, 100% {
+        border: solid var(--paleDogwood) 3px;
+        -webkit-box-shadow: 0px 0px 112px -4px var(--paleDogwood);
+        -moz-box-shadow: 0px 0px 112px -4px var(--paleDogwood);
+        box-shadow: 0px 0px 112px -4px var(--paleDogwood);
+    }
+    
+    25%, 75% {
+        border: solid var(--darkCyan) 3px;
+        -webkit-box-shadow: 0px 0px 112px -4px var(--darkCyan);
+        -moz-box-shadow: 0px 0px 112px -4px var(--darkCyan);
+        box-shadow: 0px 0px 112px -4px var(--darkCyan);
+    }
+  }
+  @keyframes flashContainer {
+    0%, 50%, 100% {
+        border: solid #F7B4B3 2px;
+
+    }
+    
+    25%, 75% {
+        border: solid #e1dee9 2px;
+
+    }
+  }
+  
+  .imagen-container {
+    animation-name: flash;
+    animation-iteration-count: infinite;
+    animation-duration: 10s;
+  }
+
+  .container-social-media{
+    transition: all 800ms;
+
+  }
+  .container-social-media:hover{
+    animation: none;
+    background-color:var(--paleDogwood);
+    border: solid var(--darkCyan) 2px;
+    transform: scale(1.1);
+    
+}
+
+.container-social-media:hover .logo-container {
+  transform: rotate(360deg) scale(1.5);
+  transition: all 700ms;
+  color: #ffffff;
+  filter: invert();
+  
+}
+.container-social-media:hover .container-texto {
+    color: #ffffff;
+    font-weight: bold;
+}  

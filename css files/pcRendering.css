@@ -1,0 +1,59 @@
+
+.container-social-media{
+  gap: 480px;
+  width: 625px;
+}
+.container-texto{
+  display: flex;
+  text-align: left;
+  justify-content: left;
+  color: var(--lavander);
+  font-family: 'Shantell Sans', serif;
+  font-weight: 500;
+  font-size: 1.1rem;
+  
+}
+.logo-container{
+  scale: 1.2;   
+}
+.main-container{
+  padding-top: 50px;
+  justify-content: flex-start;
+  height: 615px;
+  gap: 20px;
+}
+.icon{
+  max-width: 25px;
+  min-width: 25px;
+}
+footer{
+  font-family: "Roboto", serif;
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  gap: 2rem;
+  background-color: black;
+  width: 100%;
+  color: white;
+  padding: 2rem 0 2rem 0;
+}
+.footer-dev,.footer-puentePapel{
+  display: flex;
+  flex-direction: column;
+  min-height: 70px;
+  gap: 1rem;
+
+}
+.footer-dev-icons{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  font-size: 1rem;
+}
+.footer-puentePapel{
+  order: 3;
+}
+.footer-copyright{
+  order: 2;
+}
