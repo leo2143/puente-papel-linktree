@@ -14,7 +14,7 @@ const socialLinks = [
     },
     {
       href: "https://www.facebook.com/share/oWwg7kxJ1GGEq9Fc",
-      text: "Facebok",
+      text: "Facebook",
       img: `/imagenes/facebook-svgrepo-com.svg`,
       alt: "Facebook Logo",
     },
